@@ -37,7 +37,7 @@ class Solution {
     }
 
     // Convert stack to string for second pass
-    StringBuilder intermediate = StringBuilder();
+    StringBuffer intermediate = StringBuffer();
     for (String c in stack) {
       intermediate.write(c);
     }

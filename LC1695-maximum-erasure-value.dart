@@ -11,8 +11,10 @@
 // Output: 8
 // Explanation: The optimal subarray is [5,2,1], sum = 5 + 2 + 1 = 8.
 
+import 'dart:math';
+
 class Solution {
-  int maximumUniqueSubarray(int[] nums) {
+  int maximumUniqueSubarray(List<int> nums) {
     // Set to track unique elements in the current window
     Set<int> seen = Set<int>();
     // Variable to store the maximum score (sum of unique subarray)
